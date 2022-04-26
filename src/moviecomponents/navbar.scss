@@ -1,0 +1,25 @@
+.inner-div {
+    display: flex;
+}
+
+@media screen and (max-width: 626px) {
+  .inner-div {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+
+.movie-logo {
+    color: #ffd900;
+    font-size: 75px;
+}
+
+.logo-and-text {
+    display: flex;
+    align-items: flex-end;
+    gap: 14px;
+}
+
+input {
+  background-color: whitesmoke;
+}
