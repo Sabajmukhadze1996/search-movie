@@ -1,0 +1,35 @@
+.inner-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 626px) {
+  .inner-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.movie-logo {
+  color: #ffd900;
+  font-size: 75px;
+}
+
+.logo-and-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 14px;
+}
+
+input {
+  background-color: whitesmoke;
+}
+/*# sourceMappingURL=navbar.css.map */
