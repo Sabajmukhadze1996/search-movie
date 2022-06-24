@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/search-movie/static/css/main.d8711bee.css",
-    "main.js": "/search-movie/static/js/main.a9a448e1.js",
+    "main.css": "/search-movie/static/css/main.5c99ba79.css",
+    "main.js": "/search-movie/static/js/main.0fa7aa20.js",
     "static/media/parasite.jpg": "/search-movie/static/media/parasite.d7b11b6b0e680573fbee.jpg",
     "static/media/usual-suspects.jpg": "/search-movie/static/media/usual-suspects.397fb077b48238ba7264.jpg",
     "static/media/seven-samurai.jpg": "/search-movie/static/media/seven-samurai.b591bb587c47c798d6fb.jpg",
@@ -48,11 +48,11 @@
     "static/media/list.jpg": "/search-movie/static/media/list.e63f827c93ce0077efa3.jpg",
     "static/media/alien.jpg": "/search-movie/static/media/alien.2211e459a58398cd8e12.jpg",
     "index.html": "/search-movie/index.html",
-    "main.d8711bee.css.map": "/search-movie/static/css/main.d8711bee.css.map",
-    "main.a9a448e1.js.map": "/search-movie/static/js/main.a9a448e1.js.map"
+    "main.5c99ba79.css.map": "/search-movie/static/css/main.5c99ba79.css.map",
+    "main.0fa7aa20.js.map": "/search-movie/static/js/main.0fa7aa20.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8711bee.css",
-    "static/js/main.a9a448e1.js"
+    "static/css/main.5c99ba79.css",
+    "static/js/main.0fa7aa20.js"
   ]
 }
