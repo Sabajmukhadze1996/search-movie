@@ -24,12 +24,10 @@ export const Navbar = (props: NavbarProps) => {
   return (
 <>
   <nav className="navbar bg-dark text-white px-5">
-   <div className="container-fluid inner-div">
      <div className="logo-and-text">
          <BiCameraMovie className="movie-logo" />
-         <span>Top 50 Movie</span>
+         <span className="mb-2 fw-bold">Top 50 Movie</span>
      </div>
-     <div className="input-div">
         <input 
         className="form-control me-2" 
         type="text" 
@@ -37,8 +35,6 @@ export const Navbar = (props: NavbarProps) => {
         autoFocus
         onChange={event => {setSearchMovie(event.target.value)}}
         />
-      </div>
-   </div>
   </nav>
 
   <div className="outer-movie-div pt-5">
@@ -83,7 +79,7 @@ export const Navbar = (props: NavbarProps) => {
                </small>
             </div>
           )
-      })}
+      }) }
     </div>
 </>
   )

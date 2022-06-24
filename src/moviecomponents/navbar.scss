@@ -1,12 +1,8 @@
-.inner-div {
-    display: flex;
-}
-
-@media screen and (max-width: 626px) {
-  .inner-div {
-      flex-direction: column;
-      gap: 20px;
-  }
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .movie-logo {
@@ -20,6 +16,19 @@
     gap: 14px;
 }
 
+@media(max-width: 798px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+   
+  } 
+}
+
 input {
   background-color: whitesmoke;
+  width: 320px !important;
+  transform: translateY(8px);
+  max-width: 100%;
+  align-self: center;
 }
+

@@ -6,7 +6,10 @@
   list-style-type: none;
 }
 
-body {
+body, App {
+  width: 100%;
+  min-height: 100vh;
   background-color: black;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=index.css.map */
