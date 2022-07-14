@@ -9,7 +9,7 @@
 body, App {
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  background-color: #333;
   overflow-x: hidden;
 }
 /*# sourceMappingURL=index.css.map */
